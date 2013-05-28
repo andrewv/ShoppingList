@@ -4,6 +4,7 @@ $(document).ready(function() {
 	var newItem = $('#textfield').val();
 	newItem = '<p class = "ShoppingItem">'+ newItem + '</p>'
 		$(newItem).insertAfter('#ShopStart');
+	$('#textfield').val("");	
 	});	
 	
 	$('#ShoppingList').on('click','p',function() {

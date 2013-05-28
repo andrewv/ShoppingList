@@ -3,16 +3,28 @@ body {
 }
 
 #canvas {
+	
 	width:400px;
 	height:1000px;
 	border-radius:4px;
 	background-color:white;
 	margin:0 auto;
-	margin-top:50px;
+	margin-top:-15px;
 	margin-bottom:50px;
 	border:1px solid #BBBBBB;
 	text-align:center;
 	padding:20px;
+	z-index:1;
+	
+}
+
+img {
+	display:block;
+	width:442px;
+	height:30px;
+	margin:0 auto;
+	margin-top:120px;
+	z-index:1000;
 	
 }
 
