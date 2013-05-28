@@ -10,9 +10,10 @@ $(document).ready(function() {
 	$('#ShoppingList').on('click','p',function() {
 		console.log("Shopping Item Clicked");
 		$(this).toggleClass('strikethrough');
+		var self = this;
 		setTimeout(function() {
 			console.log("time works");
-			$(this).remove();
+			$(self).remove();
 			}, 1000);
 	});
-}); 
+});
